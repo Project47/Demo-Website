@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sandman's here</title>
+    <link rel = "stylesheet" type = "text/css" href = " {{ url_for('static',
+                                                       filename =
+                                                       'mystyle.css') }} ">
+
+  </head>
+  <body onload = "load()">
+    <div id = "wrapper">
+      <div id = "header"> Sandman's Here!!</div>
+      <div id = "features">
+        <canvas id = "gesture" width = "1500px" height = "800px"></canvas>
+      </div>
+      <div class = "tab" id = "tab1"></div>
+      <div class = "tab"></div>
+      <div class = "tab"></div>
+      <div class = "tab"></div>
+      <div class = "tab"></div>
+      <div class = "tab"></div>
+    </div>
+  </body>
+  <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js">
+  </script>
+  <script type = text/javascript src = "{{ url_for('static' , filename = 'jquery.js') }}"></script>
+  <script src = "static/myscript.js" ></script>
+  <script src = "static/sandman.js" ></script>
+</html>

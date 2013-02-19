@@ -1,0 +1,56 @@
+html {
+background: url("sandman-1247.jpg") no-repeat center center fixed;
+background-size : 800px 1200px;
+-webkit-background-size : cover;
+-moz-background-size : cover;
+-o-background-size : cover;
+background-size : cover;
+}
+
+div {
+display : block;
+}
+
+#header {
+text-align : center;
+font : bold 150px Georgia,serif;
+color : #00FFFF;
+}
+
+.tab {
+float : left;
+position : relative;
+top : 150px;
+left : 1100px;
+margin : 20px;
+padding : 4px 3px 0px 3px;
+height : 20px;
+width : 20px;
+border-radius : 20px;
+border-style : solid;
+border-color : black;
+background-color : transparent;
+}
+
+#tab1 {
+background-color : #00FFFF;
+}
+
+#features {
+position : relative;
+margin : auto;
+top : 100px;
+height : 800px;
+width : 1500px;
+border-style : solid;
+border-width : 10px;
+border-color : aqua;
+border-radius : 50px;
+}
+
+#gesture {
+background-color : #616D7E;
+border-radius : 50px;
+opacity:0.5;
+color : white;
+}
