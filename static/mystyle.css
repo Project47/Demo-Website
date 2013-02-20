@@ -21,7 +21,6 @@ color : #00FFFF;
 float : left;
 position : relative;
 top : 150px;
-left : 1100px;
 margin : 20px;
 padding : 4px 3px 0px 3px;
 height : 20px;
@@ -34,6 +33,21 @@ background-color : transparent;
 
 #tab1 {
 background-color : #00FFFF;
+}
+
+#tabs {
+height : 100px;
+width : 600px;
+position : relative;
+margin : auto;
+}
+
+#drawtext {
+background : none;
+position : absolute;
+top : 400px;
+left : 400px;
+z-index : 1;
 }
 
 #features {
@@ -49,6 +63,7 @@ border-radius : 50px;
 }
 
 #gesture {
+z-index : 0;
 background-color : #616D7E;
 border-radius : 50px;
 opacity:0.5;
